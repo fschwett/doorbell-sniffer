@@ -8,7 +8,7 @@ I can't hear my doorbell everywhere in my house and I wanted to change that with
 
 Doorbells in Germany usually operate using SELV (safety extra low voltage) which I take advantage of. This reduces the need for a big and complicated power supply. In my specific case the transformer is rated 8 VAC. Due to soft regulation characteristics the actual output is 16 VAC if not connected to a load. This has to be taken into account when choosing parts. Using a full bridge rectifier I charge a capacitor bank which then powers a small RF transmitter. The receiver side can just be connected to anything. In my case a small MCU making a buzzer beep.
 
-## Implementation
+## Implementation:
 
 In order to choose components it's necessary to know the voltage I'm dealing with along with some other limitations:
 
